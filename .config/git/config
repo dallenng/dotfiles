@@ -1,0 +1,9 @@
+[user]
+	name = Guillaume Dallenne
+	email = dallenneguillaume@gmail.com
+[init]
+	defaultBranch = master
+[fetch]
+	prune = true
+[pull]
+	rebase = true
