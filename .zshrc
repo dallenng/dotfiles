@@ -326,6 +326,6 @@ bindkey '^[[B' history-substring-search-down
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
-test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
 ## END OF FILE #################################################################
